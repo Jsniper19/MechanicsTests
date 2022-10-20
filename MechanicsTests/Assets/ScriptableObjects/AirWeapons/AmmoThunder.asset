@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b665f3eb49d8454419295ffcbdb813b8, type: 3}
+  m_Name: AmmoThunder
+  m_EditorClassIdentifier: 
+  ammoName: thunder
+  WarheadPrefab: {fileID: 1685004685155352397, guid: 6512b9db276876541b477fd93bc587bb, type: 3}
+  cooldown: 0
+  weight: 0
+  detonationType: 1
+  ammo_prefab: {fileID: 2057141057791446659, guid: cc1f4c7f72f65e2428a747e81a2bfd98, type: 3}
+  ammo_sizeMax: 50
+  penetration_count: 0
+  penetration_damage: 0
+  explosion_speed: 0
+  explosion_damage: 10
+  explosion_isConstant: 0
+  explosion_constant_damageSpeed: 0
+  detonations: 3
+  subDetonations: 1
+  detonationsPerLayer: 3

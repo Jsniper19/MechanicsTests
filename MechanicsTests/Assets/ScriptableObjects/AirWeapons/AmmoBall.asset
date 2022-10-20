@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b665f3eb49d8454419295ffcbdb813b8, type: 3}
+  m_Name: AmmoBall
+  m_EditorClassIdentifier: 
+  ammoName: ball
+  WarheadPrefab: {fileID: 7010383426713944432, guid: 50d15bfcdf62bea4d8f8722da49bd363, type: 3}
+  cooldown: 0
+  weight: 0
+  detonationType: 2
+  ammo_prefab: {fileID: 0}
+  ammo_sizeMax: 0
+  penetration_count: 0
+  penetration_damage: 0
+  explosion_speed: 0
+  explosion_damage: 0
+  explosion_isConstant: 0
+  explosion_constant_damageSpeed: 0
+  detonations: 0
+  subDetonations: 0
+  detonationsPerLayer: 0

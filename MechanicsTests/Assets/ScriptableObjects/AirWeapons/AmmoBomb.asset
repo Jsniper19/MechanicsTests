@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b665f3eb49d8454419295ffcbdb813b8, type: 3}
+  m_Name: AmmoBomb
+  m_EditorClassIdentifier: 
+  ammoName: bomb
+  WarheadPrefab: {fileID: 8008394199040082385, guid: fd5f1c2d4ba926c4580ae811f83c8f22, type: 3}
+  cooldown: 0
+  weight: 0
+  detonationType: 0
+  ammo_prefab: {fileID: 4741974910456032767, guid: 75f79a5a650898f4f8db9a6bd40c84b9, type: 3}
+  ammo_sizeMax: 50
+  penetration_count: 1
+  penetration_damage: 100
+  explosion_speed: 50
+  explosion_damage: 2
+  explosion_isConstant: 1
+  explosion_constant_damageSpeed: 0.1
+  detonations: 1
+  subDetonations: 0
+  detonationsPerLayer: 0
